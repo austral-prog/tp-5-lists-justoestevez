@@ -13,8 +13,11 @@ def list_of_lists(lista_de_listas):
     Returns:
         La lista de listas modificada según las reglas
     """
-    lista[0] = lista[0][:2]
-    lista[1] = lista[1][1:4]
-    lista[2] = lista[2][-2:]
-    resultado = [lista [0], lista [1], lista [2]]
+    sub_1 = lista[0][:2]    
+    sub_2 = lista[1][1:4]    
+    sub_3 = lista[2][-2:]    
+    
+
+    resultado = [sub_1, sub_2, sub_3]
+    
     return resultado
