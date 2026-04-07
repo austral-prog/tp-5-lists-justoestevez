@@ -16,4 +16,5 @@ def list_of_lists(lista_de_listas):
     lista[0] = lista[0][:2]
     lista[1] = lista[1][1:4]
     lista[2] = lista[2][-2:]
-    return lista
+    resultado = [lista [0], lista [1], lista [2]]
+    return resultado
